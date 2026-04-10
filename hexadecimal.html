@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hexadecimal Conversion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+</head>
+<header class="he">
+<h1 class="Heder">GUIDE FOR NUMBER SYSTEM CONVERSION</h1>
+<hr>
+<center>
+    <p>
+<a href="index.html" class="butt">Home</a> |
+<a href="binary.html" class="butt">Binary</a> |
+<a href="decimal.html" class="butt">Decimal</a> |
+<a href="octal.html" class="butt">Octal</a> |
+<a href="hexadecimal.html" class="butt">Hexadecimal</a> 
+</p>
+</center>
+
+<hr>
+</header>
+<body class="Bbg">
+    <div class="container">
+        <div class="content">
+        <h2>Conversion for Hexadecimal</h2>
+        </div>    
+
+            <h3 class="hcol">Hexadecimal to Decimal</h3>
+            <h4>2F₁₆ to Decimal (Using Method 1: Division/Multiplication / Place Value)</h4>
+            <h4>Step 1: Understand the values</h4>
+            <p>Hexadecimal uses base 16:</p>
+            <ul>
+            <li>2 = 2</li>
+            <li>F = 15</li>
+            </ul>
+            <p>So: <b>2F₁₆ = (2 and 15)</b></p>
+            <h4>Step 2: Write the place values (powers of 16)</h4>
+            <img src="4.png" class="emg1">
+            <h4>Step 3: Multiply each by its place value</h4>
+            <ul>
+                <li>2 × 16¹ = 2 × 16 = 32</li>
+                <li>15 × 16⁰ = 15 × 1 = 15</li>
+
+            </ul>
+            <h4>Step 4: Add the results</h4>
+            <p>32 + 15 = <b>47</b><br>
+            <b>Answer: </b>2F₁₆ = <b>47₁₀</b>
+            </p>
+            <hr>
+            <h3 class="hcol">Hexadecimal to Binary</h3>
+            <h3>2F₁₆ to Binary (Using Method 2: Substitution/Grouping)</h3>
+            <h4>Step 1: Convert each hexadecimal number to decimal</h4>
+            <ul>
+                <li>2 → 2</li>
+                <li>F → 15</li>
+            </ul>
+            <h4>Step 2: Convert each to binary (4 bits each)</h4>
+            <b>Convert 2 to binary</b>
+            <p>Use 8, 4, 2, 1:</p>
+            <ul>
+                <li>2 < 8 → 0</li>
+                <li>2 < 4 → 0</li>
+                <li>2 ≥ 2 → 1 (remainder 0)</li>
+                <li>0 < 1 → 0</li>
+            </ul>
+            <p>So: <b>2 = 0010₂</b></p>
+
+            <b>Convert 15 to binary</b>
+            <p>Use 8, 4, 2, 1:</p>
+            <ul>
+                <li>15 ≥ 8 → 1 (rem 7)</li>
+                <li>7 ≥ 4 → 1 (rem 3)</li>
+                <li>3 ≥ 2 → 1 (rem 1)</li>
+                <li>1 ≥ 1 → 1 (rem 0)</li>
+            </ul>
+            <p>So: <b>15 = 1111₂</b></p>
+            <h4>Step 3: Combine the binary results</h4>
+            <p>
+                2 → 0010<br>
+                F → 1111<br><br>
+
+                <b>Answer: </b>2F₁₆ = <b>00101111₂</b>
+            </p>
+            <hr>
+            <h3 class="hcol">Hexadecimal to Octal</h3>
+            <h4>2F₁₆ to Octal (Using Method 2: Binary Grouping / Substitution)</h4>
+            <h4>Step 1: Convert hexadecimal to binary (4 bits each)</h4>
+            <p><b>Convert 2 to binary</b><br>
+            Use 8, 4, 2, 1:</p>
+            <ul>
+                <li>2 < 8 → 0</li>
+                <li>2 < 4 → 0</li>
+                <li>2 ≥ 2 → 1</li>
+                <li>2 ≥ 2 → 1</li>
+            </ul>
+            <p>So: <b>2 = 0010₂</b></p>
+            <p><b>Convert F (15) to binary</b><br>
+            Use 8, 4, 2, 1:</p>
+            <ul>
+                <li>15 ≥ 8 → 1 (rem 7)</li>
+                <li>7 ≥ 4 → 1 (rem 3)</li>
+                <li>3 ≥ 2 → 1 (rem 1)</li>
+                <li>1 ≥ 1 → 1</li>
+            </ul>
+
+            <p>So: <b>F = 1111₂</b></p>
+            <h4>Step 2: Combine the binary</h4>
+            <p><b>0010 1111₂</b></p>
+
+            <h4>Step 3: Group into 3 bits (for octal)</h4>
+            <p>From right:<br>00101111 → <b>000 101 111 (add zeros in front)</b></p>
+            <h4>Step 4: Convert each group to decimal</h4>
+            <ul>
+                <li>000 → 0</li>
+                <li>101 → 5 (4 + 1)</li>
+                <li>111 → 7 (4 + 2 + 1)</li>
+            </ul>
+            <h4>Step 5: Combine the result</h4>
+            <p>Octal = <b>057₈</b> → usually written as 57₈<br>
+            <b>Answer: </b>2F₁₆ = <b>57₈</b>
+            </p>
+            <hr>
+            <h4 align="center"><a href="https://www.youtube.com/@TheOrganicChemistryTutor">Videos from The Organinc Chemistry Teacher Channel</a>
+    </h4>
+            <div class="video-container">
+                
+    <div class="video-box">
+        <h4>Hexadecimal to Decimal</h4>
+        <a href="https://www.youtube.com/watch?v=pg-HEGBpCQk" target="_blank" class="video-thumb">
+    <img src="t10.jpg" class="thumb">
+    </div>
+    
+    <div class="video-box">
+        <h4>Hexadecimal to Binary</h4>
+        <a href="https://www.youtube.com/watch?v=D_YC6DSPpQE" target="_blank" class="video-thumb">
+    <img src="t11.jpg" class="thumb">
+    </div>
+
+    <div class="video-box">
+        <h4>Hexadecimal to Octal</h4>
+        <a href="https://www.youtube.com/watch?v=ML_AkW97Axk" target="_blank" class="video-thumb">
+    <img src="t12.jpg" class="thumb">
+    </div>
+    </div>
+    
+    <a href="octal.html" class="nextlink">⬅ Octal</a>
+    
+
+    </div>
+</body>
+<footer class = "he">
+    <hr>
+    <p class="foter">For Inquiries:<br> +6309381716099 <a href="mailto:forsayuy@gmail.com">MakerOfGuide@gmail.com</a></p>
+</footer>
+</html>

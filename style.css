@@ -1,0 +1,159 @@
+.Heder{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foter {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.he{
+    background-color: black;
+    padding: 20px;
+    padding-bottom: 1px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3)
+}
+
+.butt{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.Bbg {
+    background-color: #ccc;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    margin: 0px auto;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    min-height: 80vh;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.butt:hover{
+    border: 2px solid white;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image {
+    width: 200px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.emg {
+    width:700px;
+    height: auto;
+    
+}
+.emg1 {
+     width:360px;
+    height: auto;
+}
+video {
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.video-box {
+    text-align: center;
+}
+
+.video-box video {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.hcol {
+    color: red;
+}
+
+.rline {
+    text-align: right;
+    text-decoration: none;
+    color: blue;
+}
+
+.nextlink {
+    text-decoration: none;
+    color: blue;
+}
+
+.nextlink:hover {
+   color: darkblue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.video-thumb {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.video-thumb img {
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+.video-thumb:hover img {
+    transform: scale(1.05);
+}
+
+.thumb {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+}
