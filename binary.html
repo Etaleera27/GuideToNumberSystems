@@ -63,11 +63,39 @@
             <h3>11011001₂ to Hexadecimal (Using Method 2: Substitution/Grouping)</h3>
             <h4>Step 1: Group binary digits in sets of 4 from right</h4>
             <p>Binary: <b>11011001</b> → groups in 4s <b>1101 1001</b></p>
-            <h4>Step 2: Convert each group to hexadecimal</h4>
+            <h4>Step 2: Convert each group by building the value</h4>
+            <p>We use the binary place values 8, 4, 2, 1 directly:
+            <br>First group:1101
+            </p>
             <ul>
-                <li>1101 → D</li>
-                <li>1001 → 9</li>
+                <li>1×8 = 8</li>
+                <li>1×4 = 4</li>
+                <li>0×2 = 0</li>
+                <li>1×1 = 1</li>
             </ul>
+            <p>Add inside the group:<br>
+            8 + 4 + 1 = 13 <br><br>
+
+            Now count past 9 in hexadecimal:<br>
+                10 = A<br>
+                11 = B<br>
+                12 = C<br>
+                13 = D<br><br>So: 1101 → D
+                <br><br>
+                Second group: 1001
+            </p>
+                <ul>
+                    <li>1×8 = 8</li>
+                    <li>0×4 = 0</li>
+                    <li>0×2 = 0</li>
+                    <li>1×1 = 1</li>
+                    
+                </ul>
+        <p>Add:<br>
+        8 + 1 = 9<br><br>
+
+        So: 1001 → 9
+        </p>
             <h4>Step 3: Combine the digits</h4>
             <p>Hexadecimal = <B>D9₁₆</B> <br> <b>Answer:</b> 11011001₂ = <b>D9₁₆</b></p>
             <hr>
