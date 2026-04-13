@@ -79,6 +79,7 @@ body {
      width:360px;
     height: auto;
 }
+/*No Clue if I'm still using this part, but ill leave it here just incase*/
 video {
     width: 300px;
     border: 2px solid black;
@@ -105,7 +106,7 @@ video {
 .hcol {
     color: red;
 }
-
+/*Bottom Navigation*/
 .rline {
     text-align: right;
     text-decoration: none;
@@ -132,7 +133,7 @@ video {
     display: flex;
     justify-content: flex-end;
 }
-
+/*For Videos*/
 .video-thumb {
     text-align: center;
     text-decoration: none;
@@ -156,4 +157,14 @@ video {
     object-fit: cover;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.ForAnswer {
+    background-color: black;
+    display: inline;
+    
+}
+
+.ForAnswer:hover {
+    color:white
 }
